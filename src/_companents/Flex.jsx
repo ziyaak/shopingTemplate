@@ -17,12 +17,12 @@ export default function Flex (
         ...props
     }
 ) { 
-    const AsElement = props.as ??   "div";
+    const AsElement = props.as  ?? "div";
 
 
     return(
       
-        <AsElement className={props.className} style={flexStyles( {alignİtems, justifyContent, direction, gap})}>
+        <AsElement className={props.className} style={flexStyles( {alignİtems, justifyContent, direction, gap})} onClick={props.onClick} >
             {props.children}
         </AsElement>
     )

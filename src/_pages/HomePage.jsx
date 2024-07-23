@@ -1,20 +1,24 @@
-import { useEffect, useState } from "react"
+
+import HeroSection from "../_companents/Home/HeroSection";
+import ProductsGrid from "../_companents/ProductsGrid";
+
+
 
 
 export default function HomePage(){
    
-    //saygac = saygac + 1;
-
-    //console.log(saygac);
-
+    
+    
+    
   
 
     
     
 
     return(
-        <div>
-            Home Page
-        </div>
+        <>
+            <HeroSection/>
+            <ProductsGrid />
+        </>
     )
 }
